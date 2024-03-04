@@ -61,3 +61,8 @@ you need to close the browser and start it with the --disable-web-security and -
 
 Or 'open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args --user-data-dir="/tmp/chrome_dev_test" --disable-web-security' run this command in terminal for mac.
 
+
+
+## Docker Compose
+I made docker compose, but unfortunalte I had an issue with migrations, you can freely run it via docker, but please at first check DB.
+
