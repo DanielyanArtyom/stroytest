@@ -1,5 +1,7 @@
 # Stroy Test Task
 
+I made an app almost same way as you describe it in requirment, but data is less than you write, because I created db and method to generate Data, and because of it it generating less then in your JSON.
+
 ### Run the Database
 
 If you have the database already configured and just want to run it, then:
@@ -36,12 +38,16 @@ dotnet ef migrations add <MigrationName>
 dotnet ef database update
 ```
 
+# Backend build
+Run backend from vs studio as usual way, but BEFORE doing any requests, please make a request to 
+https://localhost:7190/GenerateDb  -> via swagger or similar tool to genearte Data, and please use it ONLY ONCE.
+
 ## Frontend Build
 
 The client folder contains the frontend application.
 It is developed using ReactJs app with vite
 
-The scripts are in package.json
+The scripts are in package.json 
 
 To run locally:
 
