@@ -1,23 +1,24 @@
 ﻿<Properties StartupConfiguration="{DA85F830-381E-4F3D-8B28-63008B7E49BA}|https">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.StroyTestTask PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="StroyTestTask/Controllers/DbController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="StroyTestTask/Services/GenerateDbData.cs">
     <Files>
-      <File FileName="StroyTestTask/Services/GenerateDbData.cs" Line="128" Column="23" />
+      <File FileName="StroyTestTask/Services/GenerateDbData.cs" Line="79" Column="34" />
       <File FileName="StroyTestTask/DataContext/DataContext.cs" />
-      <File FileName="StroyTestTask/Controllers/ChatController.cs" Line="16" Column="3" />
+      <File FileName="StroyTestTask/Controllers/ChatController.cs" />
       <File FileName="StroyTestTask/Controllers/DbController.cs" Line="28" Column="34" />
+      <File FileName="StroyTestTask/appsettings.json" Line="10" Column="68" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="StroyTestTask" expanded="True">
             <Node name="StroyTestTask" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="DbController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="DataContext" expanded="True" />
-              <Node name="Services" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="GenerateDbData.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
